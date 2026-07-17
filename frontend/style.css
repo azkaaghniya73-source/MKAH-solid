@@ -201,4 +201,47 @@
         background: rgba(0, 0, 0, 0.2);
         margin-top: 50px;
       }
+
+      .form-container{
+        width:100%;
+        max-width:700px;
+        margin:auto;
+      }
     
+input,
+select,
+textarea{
+
+width:100%;
+
+padding:14px;
+
+font-size:16px;
+
+border-radius:10px;
+
+border:1px solid #ccc;
+
+margin-top:8px;
+
+margin-bottom:20px;
+
+}
+
+button{
+
+width:100%;
+
+padding:15px;
+
+font-size:18px;
+
+border-radius:12px;
+
+background:#16a34a;
+
+color:white;
+
+cursor:pointer;
+
+}

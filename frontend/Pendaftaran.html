@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendaftaran Anggota MKAH | Universitas Wahid Hasyim</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <i class="fas fa-user-plus"></i>
+
+        MKAH UNWAHAS
+
+    </div>
+
+    <nav>
+
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="pengurus.html">Pengurus</a>
+        <a href="pendaftaran.html">Pendaftaran</a>
+        <a href="kajian.html">Kajian</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="qna.html">Q&A</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="text">
+
+        <span>📝 Pendaftaran Anggota Baru</span>
+
+        <h1>Bergabung Bersama MKAH Universitas Wahid Hasyim</h1>
+
+        <p>
+
+            Selamat datang di halaman pendaftaran anggota baru
+            Majlis Khidmah Al-Asmaul Husna Universitas Wahid Hasyim.
+            Silakan lengkapi formulir di bawah ini dengan data yang benar.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="fitur">
+
+    <h2>Formulir Pendaftaran</h2>
+
+    <div class="item">
+
+        <form>
+
+            <div class="row">
+
+            <div class="form-group">
+
+            <label>Nama Lengkap</label>
+
+            <input
+                type="text"
+                name ="nama"
+                placeholder="Masukkan nama lengkap"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>NIM</label>
+
+            <input
+                type="text"
+                name="nim"
+                placeholder="Masukkan NIM"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Program Studi</label>
+
+            <input
+                type="text"
+                name="prodi"
+                placeholder="Contoh : Teknik Informatika"
+                required>
+
+            </div>
+
+            <div class="form-group">    
+
+            <label>Fakultas</label>
+
+            <input
+                type="text"
+                name="fakultas"
+                placeholder="Masukkan Fakultas"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Semester</label>
+
+            <input
+                type="number"
+                name="semester"
+                placeholder="Semester"
+                required>
+
+            </div>
+
+            <div class="radio-group">
+
+            <label>Jenis Kelamin
+
+            <input 
+                type="radio" 
+                name="jenis_kelamin"
+                value="laki-laki">
+
+            Laki-laki
+
+            <input 
+                type="radio" 
+                name="jenis_kelamin" 
+                value="perempuan">
+
+            Perempuan
+
+            </label>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Tempat Lahir</label>
+
+            <input
+                type="text"
+                name="tempat_lahir"
+                placeholder="Masukkan tempat lahir"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Tanggal Lahir</label>
+
+            <input
+                type="date"
+                name="tanggal_lahir"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Nomor WhatsApp</label>
+
+            <input
+                type="tel"
+                name="whatsapp"
+                placeholder="08xxxxxxxxxx"
+                required>
+
+                            </div>
+
+            <div class="form-group">
+
+            <label>Alamat Lengkap</label>
+
+            <textarea
+                name="alamat"
+                rows="4"
+                placeholder="Masukkan alamat lengkap"
+                required></textarea>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Email</label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="nama@email.com"
+                required>
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Motivasi Bergabung dengan MKAH</label>
+
+            <textarea
+                name="motivasi"
+                rows="5"
+                placeholder="Tuliskan motivasi Anda bergabung dengan MKAH"
+                required></textarea>
+
+            </div>
+
+            <div class="form-group">    
+
+            <label>Upload Foto Formal</label>
+
+            <input
+                type="file"
+                name="foto"
+                accept="image/*">
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Upload KTM / Bukti Mahasiswa</label>
+
+            <input
+                type="file"
+                name="ktm"
+                accept=".jpg,.jpeg,.png,.pdf">
+
+            </div>
+
+            <div class="form-group">
+
+            <label>Media Sosial (Opsional)</label>
+
+            <input
+                type="text"
+                name="media_sosial"
+                placeholder="Instagram / Facebook / LinkedIn">
+
+            </div>
+
+            <div class="form-group">
+
+            <label>
+
+                <input type="checkbox" required>
+
+                Saya menyatakan bahwa seluruh data yang saya isi adalah benar.
+
+            </label>
+
+            </div>
+
+            <div class="button-group">  
+
+            <button type="submit" class="btn1">
+
+                <i class="fas fa-paper-plane"></i>
+
+                Kirim Pendaftaran
+
+            </button>
+
+            <button type="reset" class="btn2">
+
+                <i class="fas fa-rotate-left"></i>
+
+                Reset Form
+
+            </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="fitur">
+
+    <h2>Alur Pendaftaran</h2>
+
+    <div class="grid">
+
+        <div class="item">
+
+            <i class="fas fa-user-edit"></i>
+
+            <h3>Isi Formulir</h3>
+
+            <p>
+
+                Lengkapi seluruh data diri sesuai identitas Anda.
+
+            </p>
+
+        </div>
+
+        <div class="item">
+
+            <i class="fas fa-cloud-upload-alt"></i>
+
+            <h3>Upload Berkas</h3>
+
+            <p>
+
+                Unggah dokumen yang dibutuhkan dengan jelas.
+
+            </p>
+
+        </div>
+
+        <div class="item">
+
+            <i class="fas fa-user-check"></i>
+
+            <h3>Verifikasi</h3>
+
+            <p>
+
+                Pengurus MKAH akan melakukan proses verifikasi data.
+
+            </p>
+
+        </div>
+
+        <div class="item">
+
+            <i class="fas fa-check-circle"></i>
+
+            <h3>Diterima</h3>
+
+            <p>
+
+                Selamat! Anda resmi menjadi calon anggota MKAH.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+
+        © 2027 Sistem Pendaftaran Anggota MKAH
+        <br>
+        Universitas Wahid Hasyim Semarang
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
